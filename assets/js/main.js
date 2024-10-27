@@ -41,7 +41,19 @@ window.addEventListener('scroll', bgHeader)
 bgHeader()
 
 /*=============== SWIPER SERVICES ===============*/ 
+const swiperServices = new Swiper('.services__swiper', {
 
+    loop: true,
+    grabCursor: true,
+    spaceBewtween: 24,
+    slidesPerView: 'auto',
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    }
+
+});
+  
 
 /*=============== SHOW SCROLL UP ===============*/ 
 
