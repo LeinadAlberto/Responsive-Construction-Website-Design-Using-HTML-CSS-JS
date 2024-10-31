@@ -45,7 +45,7 @@ const swiperServices = new Swiper('.services__swiper', {
 
     loop: true,
     grabCursor: true,
-    spaceBewtween: 24,
+    spaceBetween: 24,
     slidesPerView: 'auto',
     navigation: {
         nextEl: '.swiper-button-next',
